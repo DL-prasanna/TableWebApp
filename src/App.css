@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem 0.5rem; 
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    height: 100vh;
+    width: 100vw;
+  }
+}
